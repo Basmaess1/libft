@@ -92,14 +92,3 @@ char	**ft_split(char const *s, char c)
 	res[counter] = NULL;
 	return (res);
 }
-// int main()
-// {
-// 	char **res = ft_split("\\\\ba\\sma\\",'\\');
-// 	int i = 0;
-// 	while (res[i])
-// 	{
-// 			printf("%s\n",res[i]);
-// 			i++;
-// 	}
-// 	ft_free(res);
-// }
