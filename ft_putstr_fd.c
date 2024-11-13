@@ -25,13 +25,3 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
-/*int main()
-{
-	int fd;
-	fd = open("test.txt", O_WRONLY | O_CREAT, 0644);
-	if (fd == -1)
-		return (1);
-	ft_putstr_fd("basma essabri", fd);
-	close(fd);
-	return (0);
-}*/
