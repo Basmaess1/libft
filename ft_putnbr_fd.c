@@ -34,13 +34,3 @@ void	ft_putnbr_fd(int n, int fd)
 	else
 		ft_putchar_fd(n + 48, fd);
 }
-/*int main()
-{
-	int fd;
-	fd = open("ex.txt",O_RDWR | O_CREAT | O_TRUNC,0644);
-	if (fd == -1)
-	return (1);
-ft_putnbr_fd(-2147483,fd);
-write(fd,"\n",1);
-close (fd);
-}*/
