@@ -41,9 +41,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return ((number * counter));
 }
-// int	main(void)
-// {
-// 	char str[] = "-12jaha4";
-// 	printf("%d\n",ft_atoi(str));
-// 	printf("%d\n",atoi(str));
-// }
