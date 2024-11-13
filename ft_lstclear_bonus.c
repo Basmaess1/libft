@@ -33,19 +33,4 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 	}
 	*lst = NULL;
 }
-/*int main()
-{
-	int	*n = malloc(sizeof(int));
-	*n = 10;
-	int	*n2 = malloc(sizeof(int));
-	*n2 = 20;
-	t_list *node = ft_lstnew(n);
-	t_list *node2 = ft_lstnew(n2);
-	ft_lstadd_back(&node,node2);
-	t_list *current = node;
-	while (current) {
-		printf("%d \n", *(int *)current->content);
-		current = current->next;
-	}
-	ft_lstclear(&node, delete);
-}*/
+
