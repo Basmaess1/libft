@@ -34,10 +34,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 		ft_memcpy(ptr2, ptr1, n);
 	return (dest);
 }
-// int main()
-// {
-// 	char src[]="hello";
-// 	//char *res = ft_memmove(src+1,src+2,2);
-// 	char *res = ft_memmove(src+1,src+2,2);
-// 	printf("%s\n",res);
-// }
