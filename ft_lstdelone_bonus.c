@@ -24,11 +24,3 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *))
 	del(lst->content);
 	free(lst);
 }
-/*int main()
-{
-	int	*n = malloc(sizeof(int));
-	*n = 10;
-	t_list *node = ft_lstnew(n);
-	printf(" the content is :%d\n",*(int *)node->content);
-	ft_lstdelone(node,delete);
-}*/
