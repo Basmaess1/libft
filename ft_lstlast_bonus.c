@@ -22,15 +22,3 @@ t_list	*ft_lstlast(t_list *lst)
 	}
 	return (lst);
 }
-// int main()
-// {
-// 	int *num1 = malloc(sizeof(int));
-// 	*num1 = 10;
-// 	t_list *node1=ft_lstnew(num1);
-// 	int *num2 = malloc(sizeof(int));
-// 	*num2 = 55;
-// 	t_list *node2=ft_lstnew(num2);
-// 	node1->next = node2;
-// 	t_list *last = ft_lstlast(node1);
-// 	printf("%d\n",*(int *)last->content);
-// }
