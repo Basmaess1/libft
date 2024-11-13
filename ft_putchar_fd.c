@@ -18,13 +18,3 @@ void	ft_putchar_fd(char c, int fd)
 		return ;
 	write(fd, &c, 1);
 }
-// int main()
-// {
-// 	int fd;
-// 	fd = open("test2.txt",O_WRONLY | O_CREAT | O_TRUNC,0644);
-// 	if (fd == -1)
-// 	return (1);
-// ft_putchar_fd('h',fd);
-// 	close(fd);
-
-// }
