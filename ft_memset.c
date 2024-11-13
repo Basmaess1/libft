@@ -26,23 +26,3 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
-// int main()
-//  {
-//     char s[]="BBhj";
-//     int c = 'A';
-//     // size_t i;
-//     // i = 0;
-//     char *res= ft_memset(s,c,3);
-//     printf("%s\n",res);
-//    while (i < sizeof(s))
-//     {
-//         printf("%c\n",s[i]);
-//         i++;
-
-//     }
-// int arr[] ={0};
-// ft_memset(&arr[0],-1,4);
-// ft_memset(&arr[0],-6,2);
-// ft_memset(&arr[0],-57,1);
-// printf("%d\n",arr[0]);
-// }
