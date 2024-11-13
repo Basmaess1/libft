@@ -25,10 +25,3 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-// int main()
-// {
-//     char s[10]= "basma";
-//      ft_bzero(s,2);
-// 		printf("%s\n",s);
-
-// }
