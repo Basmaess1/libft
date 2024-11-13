@@ -26,21 +26,3 @@ int	ft_lstsize(t_list *lst)
 	}
 	return (i);
 }
-// int main()
-// {
-// 	int *n1= malloc(sizeof(int));
-// 	*n1 = 10;
-// 	t_list *node1 =ft_lstnew(n1);
-// 	int *n2 = malloc(sizeof(int));
-// 	*n2 = 20;
-// 	t_list *node2 = ft_lstnew(n2);
-// 	node1->next = node2;
-// 	t_list *all = node1;
-// 	while (all)
-// 	{
-// 		printf("%d\n",*(int *)all->content);
-// 		all = all->next;
-// 	}
-// 	int size = ft_lstsize(node1);
-// 	printf("size is :%d\n",size);
-// }
