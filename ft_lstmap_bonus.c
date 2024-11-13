@@ -51,23 +51,3 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (new_list);
 }
-/*int main()
-{
-	int *n1 = malloc(sizeof(int));
-	*n1 = 1;
-	t_list *node1 =ft_lstnew(n1);
-	int *n2 = malloc(sizeof(int));
-	*n2 = 3;
-	t_list *node2 =ft_lstnew(n2);
-	int *n3 = malloc(sizeof(int));
-	*n3 = 4;
-	t_list *node3 =ft_lstnew(n3);
-	ft_lstadd_back(&node1,node2);
-	ft_lstadd_back(&node1,node3);
-	t_list *new_list = ft_lstmap(node1, add, delete);
-	t_list *current = new_list;
-	while (current) {
-		printf("%d\n",*(int *)current->content);
-		current = current->next;
-	}
-}*/
