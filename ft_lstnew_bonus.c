@@ -23,11 +23,3 @@ t_list	*ft_lstnew(void *content)
 	newnode->next = NULL;
 	return (newnode);
 }
-// int main()
-// {
-//     int *num = malloc(sizeof(int));
-//     *num = 10;
-//     t_list *node1 = ft_lstnew(num);
-//     printf("%d\n", *(int *)node1->content);
-//     return (0);
-// }
