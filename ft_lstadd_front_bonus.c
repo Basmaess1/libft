@@ -22,20 +22,3 @@ void	ft_lstadd_front(t_list **lst, t_list *new)
 		*lst = new;
 	}
 }
-/*int main()
-{
-	int num1 = 10;
-	t_list *list = ft_lstnew(&num1);
-	int num2 = 60;
-	t_list *new = ft_lstnew(&num2);
-	ft_lstadd_front(&list, new);
-	t_list *all = list;
-	while (all)
-	{
-		printf("%d\n", *(int *)all->content);
-		all = all->next;
-	}
-	free(list->next);
-	free(list);
-	return (0);
-}*/
