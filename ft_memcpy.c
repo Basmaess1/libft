@@ -32,16 +32,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-// int main()
-// {
-//  int dest[]= {0};
-//  int src[]={10,20,30,40};
-// 	ft_memcpy(dest,src,3 * sizeof(int));
-// 	int i;
-// 	i = 0;
-// 	while (i < 3)
-// 	{
-// 	printf("%d\n",dest[i]);
-// 	i++;
-// 	}
-// }
