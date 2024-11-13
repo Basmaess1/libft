@@ -26,12 +26,3 @@ void	ft_putendl_fd(char *s, int fd)
 	}
 	write(fd, "\n", 1);
 }
-/*int main()
-{
-		int fd;
-	fd = open("test5.txt",O_RDWR | O_CREAT | O_TRUNC,0644);
-	if (fd == -1)
-	return (1);
-ft_putendl_fd("basma",fd);
-	close(fd);
-}*/
