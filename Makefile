@@ -1,7 +1,7 @@
 #variables
 
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror
 NAME = libft.a
 HEADER = libft.h
 
